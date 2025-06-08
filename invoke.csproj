@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\back.png" />
+    <None Remove="assets\dis.png" />
+    <None Remove="assets\font\radiance-black.otf" />
+    <None Remove="assets\font\radiance-bold.otf" />
+    <None Remove="assets\font\radiance-regular.otf" />
+    <None Remove="assets\git.png" />
+    <None Remove="assets\orbs\exort.png" />
+    <None Remove="assets\orbs\Invoke.png" />
+    <None Remove="assets\orbs\quas.png" />
+    <None Remove="assets\orbs\wex.png" />
+    <None Remove="assets\spells\alacrity.png" />
+    <None Remove="assets\spells\chaos_meteor.png" />
+    <None Remove="assets\spells\cold_snap.png" />
+    <None Remove="assets\spells\deafening_blast.png" />
+    <None Remove="assets\spells\e.m.p.png" />
+    <None Remove="assets\spells\forge_spirit.png" />
+    <None Remove="assets\spells\ghost_walk.png" />
+    <None Remove="assets\spells\ice_wall.png" />
+    <None Remove="assets\spells\sun_strike.png" />
+    <None Remove="assets\spells\tornado.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\back.png" />
+    <Resource Include="assets\dis.png" />
+    <Resource Include="assets\git.png" />
+    <Resource Include="assets\orbs\exort.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\font\radiance-black.otf" />
+    <Resource Include="assets\font\radiance-bold.otf" />
+    <Resource Include="assets\font\radiance-regular.otf" />
+    <Resource Include="assets\orbs\Invoke.png" />
+    <Resource Include="assets\orbs\quas.png" />
+    <Resource Include="assets\orbs\wex.png" />
+    <Resource Include="assets\spells\alacrity.png" />
+    <Resource Include="assets\spells\chaos_meteor.png" />
+    <Resource Include="assets\spells\cold_snap.png" />
+    <Resource Include="assets\spells\deafening_blast.png" />
+    <Resource Include="assets\spells\e.m.p.png" />
+    <Resource Include="assets\spells\forge_spirit.png" />
+    <Resource Include="assets\spells\ghost_walk.png" />
+    <Resource Include="assets\spells\ice_wall.png" />
+    <Resource Include="assets\spells\sun_strike.png" />
+    <Resource Include="assets\spells\tornado.png" />
+  </ItemGroup>
+
+</Project>
